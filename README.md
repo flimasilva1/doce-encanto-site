@@ -189,6 +189,10 @@ git push
 
 O Railway publica a nova versão automaticamente a cada `git push`.
 
+> Se um `git push` não gerar uma nova publicação no Railway, confira se o
+> aplicativo do Railway tem acesso ao repositório em
+> **github.com/settings/installations → Railway → Configure → Repository access**.
+
 ### 4.2. Criar o projeto no Railway
 
 1. Acesse [railway.com](https://railway.com) e entre com a conta do GitHub.
