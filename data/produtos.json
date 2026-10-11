@@ -1,0 +1,157 @@
+{
+  "categorias": [
+    { "id": "aniversario", "nome": "Aniversário" },
+    { "id": "casamento", "nome": "Casamento" },
+    { "id": "infantil", "nome": "Infantil" },
+    { "id": "bolo-no-pote", "nome": "Bolo no pote" },
+    { "id": "bolo-caseiro", "nome": "Bolo caseiro" }
+  ],
+
+  "bolos": [
+    {
+      "nome": "Red Velvet com Frutas Vermelhas",
+      "categoria": "aniversario",
+      "descricao": "Massa aveludada, recheio de cream cheese e cobertura com frutas vermelhas frescas.",
+      "tamanho": "Redondo 20 cm (aprox. 2,5 kg)",
+      "rendimento": "Serve 25 fatias",
+      "imagem": "images/bolos/aniversario-red-velvet.jpg"
+    },
+    {
+      "nome": "Chocolate Belga com Morangos",
+      "categoria": "aniversario",
+      "descricao": "Massa de chocolate 50% cacau, brigadeiro belga cremoso e morangos selecionados.",
+      "tamanho": "Redondo 22 cm (aprox. 3 kg)",
+      "rendimento": "Serve 30 fatias",
+      "imagem": "images/bolos/aniversario-chocolate-morango.jpg"
+    },
+    {
+      "nome": "Naked Cake de Ninho com Nutella",
+      "categoria": "aniversario",
+      "descricao": "Massa branca fofinha, recheio de leite Ninho com Nutella e acabamento rústico com flores.",
+      "tamanho": "Redondo 18 cm (aprox. 2 kg)",
+      "rendimento": "Serve 20 fatias",
+      "imagem": "images/bolos/aniversario-naked-ninho-nutella.jpg"
+    },
+    {
+      "nome": "Bolo de Casamento Floral",
+      "categoria": "casamento",
+      "descricao": "Três andares em chantininho branco, flores naturais e detalhes em dourado.",
+      "tamanho": "3 andares (15, 20 e 25 cm)",
+      "rendimento": "Serve 100 fatias",
+      "imagem": "images/bolos/casamento-floral-3-andares.jpg"
+    },
+    {
+      "nome": "Clássico Branco e Dourado",
+      "categoria": "casamento",
+      "descricao": "Elegante, com textura lisa, folhas de ouro comestível e recheio de nozes com doce de leite.",
+      "tamanho": "2 andares (15 e 22 cm)",
+      "rendimento": "Serve 60 fatias",
+      "imagem": "images/bolos/casamento-branco-dourado.jpg"
+    },
+    {
+      "nome": "Bolo Unicórnio",
+      "categoria": "infantil",
+      "descricao": "Colorido e encantado, com chifre dourado, crina de chantilly e recheio de brigadeiro branco.",
+      "tamanho": "Redondo 18 cm alto (aprox. 2,5 kg)",
+      "rendimento": "Serve 25 fatias",
+      "imagem": "images/bolos/infantil-unicornio.jpg"
+    },
+    {
+      "nome": "Bolo Fundo do Mar",
+      "categoria": "infantil",
+      "descricao": "Tons de azul, conchas e estrelas-do-mar de chocolate. Recheio de ninho com morango.",
+      "tamanho": "Redondo 22 cm (aprox. 3 kg)",
+      "rendimento": "Serve 30 fatias",
+      "imagem": "images/bolos/infantil-fundo-do-mar.jpg"
+    },
+    {
+      "nome": "Bolo Safári",
+      "categoria": "infantil",
+      "descricao": "Bichinhos modelados à mão e folhagens. Massa de chocolate com recheio de brigadeiro.",
+      "tamanho": "Quadrado 25 cm (aprox. 4 kg)",
+      "rendimento": "Serve 40 fatias",
+      "imagem": "images/bolos/infantil-safari.jpg"
+    },
+    {
+      "nome": "Bolo no Pote de Prestígio",
+      "categoria": "bolo-no-pote",
+      "descricao": "Camadas de massa de chocolate, creme de coco e ganache. Perfeito para lembrancinhas.",
+      "tamanho": "Pote de 250 ml",
+      "rendimento": "1 porção individual",
+      "imagem": "images/bolos/pote-prestigio.jpg"
+    },
+    {
+      "nome": "Bolo no Pote de Maracujá",
+      "categoria": "bolo-no-pote",
+      "descricao": "Massa branca, mousse de maracujá e calda de chocolate meio amargo.",
+      "tamanho": "Pote de 250 ml",
+      "rendimento": "1 porção individual",
+      "imagem": "images/bolos/pote-maracuja-chocolate.jpg"
+    },
+    {
+      "nome": "Bolo de Cenoura com Chocolate",
+      "categoria": "bolo-caseiro",
+      "descricao": "O clássico do café da tarde: massa fofinha de cenoura e cobertura generosa de chocolate.",
+      "tamanho": "Forma retangular 20 x 30 cm",
+      "rendimento": "Serve 15 fatias",
+      "imagem": "images/bolos/caseiro-cenoura-chocolate.jpg"
+    },
+    {
+      "nome": "Bolo de Rolo Pernambucano",
+      "categoria": "bolo-caseiro",
+      "descricao": "Camadas finíssimas enroladas com goiabada, do jeitinho tradicional de Pernambuco.",
+      "tamanho": "Rolo inteiro (aprox. 1 kg)",
+      "rendimento": "Serve 12 fatias",
+      "imagem": "images/bolos/caseiro-bolo-de-rolo.jpg"
+    }
+  ],
+
+  "kits": [
+    {
+      "nome": "Kit Mini",
+      "pessoas": 10,
+      "descricao": "Ideal para comemorações íntimas em casa.",
+      "itens": [
+        "Bolo decorado de 1 kg",
+        "50 docinhos tradicionais",
+        "50 salgadinhos fritos"
+      ],
+      "imagem": "images/kits/kit-mini-10-pessoas.jpg"
+    },
+    {
+      "nome": "Kit Festa",
+      "pessoas": 20,
+      "descricao": "O queridinho para aniversários com a família e os amigos.",
+      "itens": [
+        "Bolo decorado de 2 kg",
+        "100 docinhos tradicionais",
+        "100 salgadinhos fritos"
+      ],
+      "imagem": "images/kits/kit-festa-20-pessoas.jpg"
+    },
+    {
+      "nome": "Kit Família",
+      "pessoas": 30,
+      "descricao": "Para reunir todo mundo com fartura e sabor.",
+      "itens": [
+        "Bolo decorado de 3 kg",
+        "150 docinhos tradicionais",
+        "150 salgadinhos fritos",
+        "20 bolos no pote sortidos"
+      ],
+      "imagem": "images/kits/kit-familia-30-pessoas.jpg"
+    },
+    {
+      "nome": "Kit Premium",
+      "pessoas": 50,
+      "descricao": "Festa completa, com bolo de andar e doces finos.",
+      "itens": [
+        "Bolo de 2 andares (5 kg)",
+        "150 docinhos tradicionais",
+        "100 doces finos em forminhas especiais",
+        "300 salgadinhos fritos e assados"
+      ],
+      "imagem": "images/kits/kit-premium-50-pessoas.jpg"
+    }
+  ]
+}

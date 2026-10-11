@@ -1,0 +1,30 @@
+[
+  {
+    "nome": "Mariana S.",
+    "cidade": "Olinda",
+    "ocasiao": "Aniversário de 30 anos",
+    "nota": 5,
+    "texto": "O bolo red velvet estava divino! Todo mundo elogiou o sabor e a decoração ficou exatamente como eu pedi. A Ana é um amor de pessoa."
+  },
+  {
+    "nome": "Carlos e Juliana",
+    "cidade": "Recife",
+    "ocasiao": "Casamento",
+    "nota": 5,
+    "texto": "Nosso bolo de casamento foi o centro das atenções. Lindo, delicado e muito saboroso. Atendimento impecável do orçamento até a entrega."
+  },
+  {
+    "nome": "Fernanda L.",
+    "cidade": "Paulista",
+    "ocasiao": "Festa infantil",
+    "nota": 5,
+    "texto": "Encomendei o Kit Festa para o aniversário do meu filho e foi um sucesso. Docinhos fresquinhos, salgados quentinhos e o bolo de unicórnio era um sonho."
+  },
+  {
+    "nome": "Roberto A.",
+    "cidade": "Recife",
+    "ocasiao": "Café da empresa",
+    "nota": 5,
+    "texto": "Pedi bolos no pote para a equipe e o bolo de rolo para o café da tarde. Pontualidade e qualidade excelentes. Já virei cliente fiel!"
+  }
+]

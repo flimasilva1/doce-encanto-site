@@ -1,0 +1,104 @@
+{
+  "nome": "Doce Encanto Bolos Artesanais",
+  "nomeCurto": "Doce Encanto",
+  "responsavel": "Ana Paula",
+  "cidades": ["Paulista", "Olinda", "Recife"],
+  "estado": "PE",
+  "whatsapp": {
+    "exibicao": "(81) 90000-0000",
+    "numero": "5581900000000"
+  },
+  "instagram": {
+    "usuario": "@doceencanto.bolos",
+    "url": "https://www.instagram.com/doceencanto.bolos/"
+  },
+  "horario": "Segunda a sábado, das 8h às 18h",
+  "antecedenciaMinimaDias": 3,
+
+  "cores": {
+    "rosaClaro": "#f8dfe4",
+    "rosa": "#e9aab8",
+    "dourado": "#c9a24b",
+    "douradoEscuro": "#8a6a1f",
+    "branco": "#ffffff",
+    "texto": "#4a3438"
+  },
+
+  "seo": {
+    "titulo": "Doce Encanto Bolos Artesanais | Bolos para festas em Paulista, Olinda e Recife",
+    "descricao": "Bolos artesanais de aniversário, casamento, infantis, bolo no pote e kits festa em Paulista, Olinda e Recife/PE. Peça seu orçamento pelo WhatsApp.",
+    "imagem": "images/og-compartilhamento.jpg"
+  },
+
+  "inicio": {
+    "titulo": "Bolos artesanais que encantam",
+    "frase": "Feitos à mão, com ingredientes selecionados e muito carinho, para adoçar os momentos mais especiais da sua vida.",
+    "imagem": "images/destaque.jpg",
+    "imagemAlt": "Bolo artesanal decorado com flores e detalhes dourados",
+    "botao": "Pedir orçamento no WhatsApp"
+  },
+
+  "sobre": {
+    "titulo": "Prazer, eu sou a Ana Paula",
+    "paragrafos": [
+      "A Doce Encanto nasceu na cozinha da minha avó, em Paulista, onde aprendi que um bolo bem feito é uma forma de abraço. Depois de anos fazendo bolos para a família e os amigos, decidi transformar essa paixão em profissão.",
+      "Hoje, cada encomenda é preparada de forma artesanal, com receitas próprias, massas fofinhas e recheios generosos. Gosto de ouvir a história por trás de cada festa para criar um bolo que tenha a cara de quem vai celebrar.",
+      "Do bolo caseiro do café da tarde ao bolo de casamento, o cuidado é o mesmo: ingredientes de qualidade, acabamento delicado e aquele sabor que faz todo mundo pedir mais uma fatia."
+    ],
+    "assinatura": "Com carinho, Ana Paula",
+    "imagem": "images/sobre-ana-paula.jpg",
+    "imagemAlt": "Ana Paula, boleira da Doce Encanto, decorando um bolo"
+  },
+
+  "secoes": {
+    "bolos": {
+      "titulo": "Nossos bolos",
+      "subtitulo": "Inspire-se em alguns dos trabalhos já feitos. Toque na foto para ver ampliada."
+    },
+    "kits": {
+      "titulo": "Kits festa",
+      "subtitulo": "Tudo o que sua comemoração precisa em um só pedido: bolo, docinhos e salgados."
+    },
+    "comoEncomendar": {
+      "titulo": "Como encomendar",
+      "subtitulo": "Simples, rápido e todo pelo WhatsApp."
+    },
+    "depoimentos": {
+      "titulo": "O que dizem os clientes",
+      "subtitulo": "A maior alegria é fazer parte da sua festa."
+    },
+    "contato": {
+      "titulo": "Fale comigo",
+      "subtitulo": "Tire dúvidas e peça seu orçamento sem compromisso."
+    }
+  },
+
+  "comoEncomendar": {
+    "aviso": "Encomendas com no mínimo {antecedencia} dias de antecedência. Para casamentos e kits grandes, recomendamos reservar a data com pelo menos 30 dias.",
+    "observacao": "Os valores variam conforme tamanho, sabor e decoração e são combinados no orçamento.",
+    "passos": [
+      {
+        "titulo": "Escolha",
+        "texto": "Navegue pela galeria e escolha o bolo ou kit que mais combina com a sua festa. Pode mandar também uma foto de referência."
+      },
+      {
+        "titulo": "Orçamento",
+        "texto": "Chame no WhatsApp informando a data, o número de convidados, o sabor e o tema. Você recebe o orçamento personalizado."
+      },
+      {
+        "titulo": "Sinal",
+        "texto": "Para garantir a sua data, é pago um sinal de 50% do valor. O restante é acertado na retirada ou entrega."
+      },
+      {
+        "titulo": "Retirada ou entrega",
+        "texto": "Retire no ateliê em Paulista ou receba no endereço da festa (taxa de entrega conforme o bairro)."
+      }
+    ]
+  },
+
+  "mensagens": {
+    "padrao": "Olá, {responsavel}! Vi o site da {nome} e gostaria de pedir um orçamento.",
+    "bolo": "Olá, {responsavel}! Vi no site o bolo *{bolo}* e gostaria de pedir um orçamento.",
+    "kit": "Olá, {responsavel}! Vi no site e quero o *{kit}* (serve {pessoas} pessoas). Pode me passar um orçamento?"
+  }
+}
