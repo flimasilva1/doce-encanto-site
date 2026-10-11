@@ -18,7 +18,7 @@ doce-encanto/
 │   │   ├── bolos/         ← fotos dos bolos
 │   │   ├── kits/          ← fotos dos kits
 │   │   ├── destaque.jpg            ← foto grande do início
-│   │   ├── sobre-ana-paula.jpg     ← foto da seção "Sobre"
+│   │   ├── sobre-jessica.jpg       ← foto da seção "Sobre"
 │   │   └── og-compartilhamento.jpg ← imagem que aparece ao compartilhar o link
 │   ├── css/style.css
 │   ├── js/app.js          ← monta as seções lendo os JSON
@@ -58,7 +58,8 @@ Edite apenas os arquivos da pasta `data/`. Não é preciso mexer no HTML.
 | Campo | O que é |
 |---|---|
 | `nome`, `nomeCurto` | Nome completo e nome curto (aparece no menu) |
-| `responsavel` | Nome da boleira (usado nas mensagens do WhatsApp) |
+| `responsavel` | Nome completo da boleira |
+| `responsavelApelido` | Como ela é chamada (usado no "Olá, …!" do WhatsApp) |
 | `cidades`, `estado` | Área de atendimento |
 | `whatsapp.exibicao` | Número como aparece no site: `(81) 90000-0000` |
 | `whatsapp.numero` | **Só números**, com 55 + DDD: `5581900000000` |
@@ -75,7 +76,7 @@ Edite apenas os arquivos da pasta `data/`. Não é preciso mexer no HTML.
 
 **Mensagens do WhatsApp** — os trechos entre chaves são trocados automaticamente:
 
-- `{nome}` → nome do negócio · `{responsavel}` → nome da boleira
+- `{nome}` → nome do negócio · `{responsavel}` → nome completo da boleira · `{apelido}` → como ela é chamada
 - `{bolo}` → nome do bolo (botão "Quero um bolo assim", na foto ampliada)
 - `{kit}` e `{pessoas}` → nome do kit e número de pessoas (botão "Quero este kit")
 - Use `*texto*` para deixar em **negrito** no WhatsApp.

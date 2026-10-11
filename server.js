@@ -53,7 +53,8 @@ function paginaInicial(req, res, next) {
   const base = urlBase(req);
   const msgPadrao = preencher(negocio.mensagens.padrao, {
     nome: negocio.nome,
-    responsavel: negocio.responsavel
+    responsavel: negocio.responsavel,
+    apelido: negocio.responsavelApelido || negocio.responsavel
   });
   const cores = negocio.cores || {};
   const coresCss = `:root{${Object.entries({

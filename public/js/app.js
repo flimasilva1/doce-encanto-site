@@ -83,7 +83,11 @@
       return;
     }
 
-    const varsBase = { nome: negocio.nome, responsavel: negocio.responsavel };
+    const varsBase = {
+      nome: negocio.nome,
+      responsavel: negocio.responsavel,
+      apelido: negocio.responsavelApelido || negocio.responsavel
+    };
     const linkWhats = (mensagem) =>
       `https://wa.me/${negocio.whatsapp.numero}?text=${encodeURIComponent(mensagem)}`;
 

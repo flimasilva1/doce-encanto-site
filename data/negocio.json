@@ -1,7 +1,8 @@
 {
   "nome": "Doce Encanto Bolos Artesanais",
   "nomeCurto": "Doce Encanto",
-  "responsavel": "Ana Paula",
+  "responsavel": "Jessica Lima Silva",
+  "responsavelApelido": "Jessica",
   "cidades": ["Paulista", "Olinda", "Recife"],
   "estado": "PE",
   "whatsapp": {
@@ -39,15 +40,15 @@
   },
 
   "sobre": {
-    "titulo": "Prazer, eu sou a Ana Paula",
+    "titulo": "Prazer, eu sou a Jessica",
     "paragrafos": [
       "A Doce Encanto nasceu na cozinha da minha avó, em Paulista, onde aprendi que um bolo bem feito é uma forma de abraço. Depois de anos fazendo bolos para a família e os amigos, decidi transformar essa paixão em profissão.",
       "Hoje, cada encomenda é preparada de forma artesanal, com receitas próprias, massas fofinhas e recheios generosos. Gosto de ouvir a história por trás de cada festa para criar um bolo que tenha a cara de quem vai celebrar.",
       "Do bolo caseiro do café da tarde ao bolo de casamento, o cuidado é o mesmo: ingredientes de qualidade, acabamento delicado e aquele sabor que faz todo mundo pedir mais uma fatia."
     ],
-    "assinatura": "Com carinho, Ana Paula",
-    "imagem": "images/sobre-ana-paula.jpg",
-    "imagemAlt": "Ana Paula, boleira da Doce Encanto, decorando um bolo"
+    "assinatura": "Com carinho, Jessica Lima Silva",
+    "imagem": "images/sobre-jessica.jpg",
+    "imagemAlt": "Jessica Lima Silva, boleira da Doce Encanto, decorando um bolo"
   },
 
   "secoes": {
@@ -97,8 +98,8 @@
   },
 
   "mensagens": {
-    "padrao": "Olá, {responsavel}! Vi o site da {nome} e gostaria de pedir um orçamento.",
-    "bolo": "Olá, {responsavel}! Vi no site o bolo *{bolo}* e gostaria de pedir um orçamento.",
-    "kit": "Olá, {responsavel}! Vi no site e quero o *{kit}* (serve {pessoas} pessoas). Pode me passar um orçamento?"
+    "padrao": "Olá, {apelido}! Vi o site da {nome} e gostaria de pedir um orçamento.",
+    "bolo": "Olá, {apelido}! Vi no site o bolo *{bolo}* e gostaria de pedir um orçamento.",
+    "kit": "Olá, {apelido}! Vi no site e quero o *{kit}* (serve {pessoas} pessoas). Pode me passar um orçamento?"
   }
 }
